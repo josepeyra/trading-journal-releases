@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "notes": "Primera version instalable del Trading Journal.",
+  "min_runtime": "1.0.0",
+  "code": {
+    "url": "https://github.com/josepeyra/trading-journal-releases/releases/download/v1.0.0/trading-journal-1.0.0-code.zip",
+    "sha256": "c51e0e5b1c5aa78f20139e68e706af2bc21c69e125cd409dfb52762e86a28e42"
+  },
+  "installers": {}
+}
