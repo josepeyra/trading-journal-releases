@@ -1,10 +1,10 @@
 {
-  "version": "0.1.0",
-  "notes": "Version 0.1: la aplicacion sobre Streamlit. Queda como referencia; la version 1.0 la sustituye por una interfaz propia.",
+  "version": "1.0.1",
+  "notes": "Excel: exportar el registro completo e importar un libro con ese mismo formato.\nRegistro: ordenar y filtrar los dias, abrir el detalle bajo su fila, ver y editar cada operacion, y borrar dias sueltos o marcados de golpe.\nFoto de perfil, estado y tipo de cuenta al pulsar tu foto.\nEn vivo: anadir o quitar opciones de cualquier desplegable.\nCuentas de usuario: la lista con la ficha de cada cuenta desplegable.",
   "min_runtime": "1.0.0",
   "code": {
-    "url": "https://github.com/josepeyra/trading-journal-releases/releases/download/v0.1.0/trading-journal-0.1.0-code.zip",
-    "sha256": "aaebebba94001a95ee0dd8973322257373001bc719f6efa25983faef428c4599"
+    "url": "https://github.com/josepeyra/trading-journal-releases/releases/download/v1.0.1/trading-journal-1.0.1-code.zip",
+    "sha256": "2faf2ce4f9fa10a9729aac41a4c4cfbbd64924cc4bd2f9b057a8afebc14e7088"
   },
   "installers": {}
 }
