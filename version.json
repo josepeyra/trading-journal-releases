@@ -1,10 +1,10 @@
 {
-  "version": "1.0.1",
-  "notes": "Excel: exportar el registro completo e importar un libro con ese mismo formato.\nRegistro: ordenar y filtrar los dias, abrir el detalle bajo su fila, ver y editar cada operacion, y borrar dias sueltos o marcados de golpe.\nFoto de perfil, estado y tipo de cuenta al pulsar tu foto.\nEn vivo: anadir o quitar opciones de cualquier desplegable.\nCuentas de usuario: la lista con la ficha de cada cuenta desplegable.",
+  "version": "1.0.2",
+  "notes": "Modo backtest: las mismas pantallas con sus propios trades, su diario y sus estadisticas, para estudiar una estrategia sin mezclarla con lo real. Se cambia con el interruptor de la barra lateral.\nAl importar un Excel dices de que tipo es cada cuenta y se le aplican las reglas de ese plan: si la habrias pasado o petado, y que te falta para poder retirar.\nTarjeta de retirada en cada cuenta con lo que queda para el payout.",
   "min_runtime": "1.0.0",
   "code": {
-    "url": "https://github.com/josepeyra/trading-journal-releases/releases/download/v1.0.1/trading-journal-1.0.1-code.zip",
-    "sha256": "2faf2ce4f9fa10a9729aac41a4c4cfbbd64924cc4bd2f9b057a8afebc14e7088"
+    "url": "https://github.com/josepeyra/trading-journal-releases/releases/download/v1.0.2/trading-journal-1.0.2-code.zip",
+    "sha256": "faaa14ca0ec30e67f49ca0f24d582378a22930ac213deabe3b6d0891a554c289"
   },
   "installers": {}
 }
