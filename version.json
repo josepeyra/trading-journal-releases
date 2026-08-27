@@ -1,10 +1,10 @@
 {
-  "version": "1.0.2",
-  "notes": "Modo backtest: las mismas pantallas con sus propios trades, su diario y sus estadisticas, para estudiar una estrategia sin mezclarla con lo real. Se cambia con el interruptor de la barra lateral.\nAl importar un Excel dices de que tipo es cada cuenta y se le aplican las reglas de ese plan: si la habrias pasado o petado, y que te falta para poder retirar.\nTarjeta de retirada en cada cuenta con lo que queda para el payout.",
+  "version": "1.0.3",
+  "notes": "Entrar una vez basta: la sesion se queda guardada y se renueva sola, asi que ya no hay que pasar por Google cada vez que abres el diario.\nLos fallos de conexion se explican de verdad: si no se puede hablar con el servidor lo dice y ofrece reintentar, en vez de avisar en falso de que faltan las credenciales de Google.",
   "min_runtime": "1.0.0",
   "code": {
-    "url": "https://github.com/josepeyra/trading-journal-releases/releases/download/v1.0.2/trading-journal-1.0.2-code.zip",
-    "sha256": "faaa14ca0ec30e67f49ca0f24d582378a22930ac213deabe3b6d0891a554c289"
+    "url": "https://github.com/josepeyra/trading-journal-releases/releases/download/v1.0.3/trading-journal-1.0.3-code.zip",
+    "sha256": "e29306a47435f1ec5c5af505a90287bc860b21a33814c6a2864d9a61ea7e5417"
   },
   "installers": {}
 }
