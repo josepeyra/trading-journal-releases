@@ -1,13 +1,13 @@
 {
-  "version": "1.0.4",
-  "notes": "Actualizar se nota: la ventana ya no puede repintar la interfaz de la version anterior cuando el codigo ya es el nuevo.\nEsta version necesita reinstalar el programa con el instalador nuevo, porque el arreglo esta en el lanzador, que viaja dentro del programa y no se actualiza solo. Pideselo a quien te paso la aplicacion.",
+  "version": "1.1.0",
+  "notes": "Auditoria del trade mas completa, captura del dia en el diario y pestana nueva de Solicitudes.\n\n- Al cerrar un trade se pregunta si el precio llego despues a tu direccion y cuantos minutos tardo. Los dos admiten escribir lo que quieras, no solo si o no.\n- El diario acepta una captura con todas las operaciones de la jornada, en la pantalla Diario y en el detalle de un dia del Registro. Se pega con Ctrl+V o se elige el fichero y se guarda sola.\n- Solicitudes: pide lo que necesites de la aplicacion y sigue su estado. El administrador responde y marca si lo ha aplicado.\n\nSe actualiza sola: no hace falta reinstalar.",
   "min_runtime": "1.0.1",
   "code": {
-    "url": "https://github.com/josepeyra/trading-journal-releases/releases/download/v1.0.4/trading-journal-1.0.4-code.zip",
-    "sha256": "baafbb2b2a3c4d10e2c28b265cbca8119413b814028253e51645043c96dae3b8"
+    "url": "https://github.com/josepeyra/trading-journal-releases/releases/download/v1.1.0/trading-journal-1.1.0-code.zip",
+    "sha256": "35c4152e162950c688b50508a66ba53802e79a8348b11e5c5d8e3734f73e9850"
   },
   "installers": {
-    "windows": "https://github.com/josepeyra/trading-journal-releases/releases/tag/v1.0.4",
-    "macos": "https://github.com/josepeyra/trading-journal-releases/releases/tag/v1.0.4"
+    "windows": "https://github.com/josepeyra/trading-journal-releases/releases/tag/v1.1.0",
+    "macos": "https://github.com/josepeyra/trading-journal-releases/releases/tag/v1.1.0"
   }
 }
