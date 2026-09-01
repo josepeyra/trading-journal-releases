@@ -1,13 +1,13 @@
 {
-  "version": "1.1.0",
-  "notes": "Auditoria del trade mas completa, captura del dia en el diario y pestana nueva de Solicitudes.\n\n- Al cerrar un trade se pregunta si el precio llego despues a tu direccion y cuantos minutos tardo. Los dos admiten escribir lo que quieras, no solo si o no.\n- El diario acepta una captura con todas las operaciones de la jornada, en la pantalla Diario y en el detalle de un dia del Registro. Se pega con Ctrl+V o se elige el fichero y se guarda sola.\n- Solicitudes: pide lo que necesites de la aplicacion y sigue su estado. El administrador responde y marca si lo ha aplicado.\n\nSe actualiza sola: no hace falta reinstalar.",
+  "version": "1.2.0",
+  "notes": "Clasificacion de trades por nota y repaso escrito de cada semana.\n\n- Pantalla nueva Clasificacion: pon nota a cada trade (A+, A, B, C, F) y mira que rinde cada letra: cuantos trades, cuantos ganan, cuantos pierden, el winrate y lo que suman en dolares. Al pulsar una nota se abren sus trades y cada uno se clasifica ahi mismo: nota, resultado, calidad de la ejecucion, resultado de ratio, que paso despues y un espacio para explicar como acabo la operacion.\n- El ganancia/perdida sale solo de tu resultado en dolares, y puedes marcarlo a mano si quieres contarlo distinto.\n- Resumen semanal: pulsa una semana y escribe debajo su conclusion, sus aciertos y sus errores. Una columna marca las semanas que ya tienen algo escrito.\n- Los mismos campos aparecen al cerrar un trade en En vivo y al editarlo desde el Registro.\n- Un administrador ve saltar el aviso de una solicitud nueva este en la pantalla que este, y cada solicitud lleva un boton para copiarla.\n\nSe actualiza sola: no hace falta reinstalar.",
   "min_runtime": "1.0.1",
   "code": {
-    "url": "https://github.com/josepeyra/trading-journal-releases/releases/download/v1.1.0/trading-journal-1.1.0-code.zip",
-    "sha256": "35c4152e162950c688b50508a66ba53802e79a8348b11e5c5d8e3734f73e9850"
+    "url": "https://github.com/josepeyra/trading-journal-releases/releases/download/v1.2.0/trading-journal-1.2.0-code.zip",
+    "sha256": "5bbbce71edaca81f957461c6743bdd1e6a220605898c9fa2e1374baa7ec2a4d7"
   },
   "installers": {
-    "windows": "https://github.com/josepeyra/trading-journal-releases/releases/tag/v1.1.0",
-    "macos": "https://github.com/josepeyra/trading-journal-releases/releases/tag/v1.1.0"
+    "windows": "https://github.com/josepeyra/trading-journal-releases/releases/tag/v1.2.0",
+    "macos": "https://github.com/josepeyra/trading-journal-releases/releases/tag/v1.2.0"
   }
 }
