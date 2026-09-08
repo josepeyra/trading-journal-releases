@@ -1,13 +1,13 @@
 {
-  "version": "1.2.0",
-  "notes": "Clasificacion de trades por nota y repaso escrito de cada semana.\n\n- Pantalla nueva Clasificacion: pon nota a cada trade (A+, A, B, C, F) y mira que rinde cada letra: cuantos trades, cuantos ganan, cuantos pierden, el winrate y lo que suman en dolares. Al pulsar una nota se abren sus trades y cada uno se clasifica ahi mismo: nota, resultado, calidad de la ejecucion, resultado de ratio, que paso despues y un espacio para explicar como acabo la operacion.\n- El ganancia/perdida sale solo de tu resultado en dolares, y puedes marcarlo a mano si quieres contarlo distinto.\n- Resumen semanal: pulsa una semana y escribe debajo su conclusion, sus aciertos y sus errores. Una columna marca las semanas que ya tienen algo escrito.\n- Los mismos campos aparecen al cerrar un trade en En vivo y al editarlo desde el Registro.\n- Un administrador ve saltar el aviso de una solicitud nueva este en la pantalla que este, y cada solicitud lleva un boton para copiarla.\n\nSe actualiza sola: no hace falta reinstalar.",
+  "version": "1.2.1",
+  "notes": "El breakeven pasa a ser una banda, no el cero exacto.\r\n\r\n- Un trade cuenta como ganado cuando pasa de +0,25R y como perdido cuando baja de -0,25R. Todo lo que queda dentro de esa banda, incluido el cero, es breakeven.\r\n- El winrate, el winrate sin BE, el contador de ganados / perdidos / BE del dashboard y los desgloses aplican ya la banda, igual que la pantalla de Clasificacion. Lo que marques a mano sigue mandando sobre lo calculado.\r\n- La R media de ganadores y la de perdedores, y con ellas el payoff, usan la misma banda: un +0,10R deja de entrar en la media de ganadores.\r\n- Si un trade no tiene riesgo registrado no hay R con la que medir la banda, y se sigue contando por el signo del resultado en dolares.\r\n- La regla se aplica a todo el historial: las metricas de lo ya registrado cambian de valor sin tocar ningun dato.\r\n\r\nSe actualiza sola: no hace falta reinstalar.",
   "min_runtime": "1.0.1",
   "code": {
-    "url": "https://github.com/josepeyra/trading-journal-releases/releases/download/v1.2.0/trading-journal-1.2.0-code.zip",
-    "sha256": "5bbbce71edaca81f957461c6743bdd1e6a220605898c9fa2e1374baa7ec2a4d7"
+    "url": "https://github.com/josepeyra/trading-journal-releases/releases/download/v1.2.1/trading-journal-1.2.1-code.zip",
+    "sha256": "f9e483020ead028ebb502a00ffa7a9d62ce80b17903784bd7f1f1ffd15b73190"
   },
   "installers": {
-    "windows": "https://github.com/josepeyra/trading-journal-releases/releases/tag/v1.2.0",
-    "macos": "https://github.com/josepeyra/trading-journal-releases/releases/tag/v1.2.0"
+    "windows": "https://github.com/josepeyra/trading-journal-releases/releases/tag/v1.2.1",
+    "macos": "https://github.com/josepeyra/trading-journal-releases/releases/tag/v1.2.1"
   }
 }
