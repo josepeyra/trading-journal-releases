@@ -1,13 +1,13 @@
 {
-  "version": "1.2.1",
-  "notes": "El breakeven pasa a ser una banda, no el cero exacto.\r\n\r\n- Un trade cuenta como ganado cuando pasa de +0,25R y como perdido cuando baja de -0,25R. Todo lo que queda dentro de esa banda, incluido el cero, es breakeven.\r\n- El winrate, el winrate sin BE, el contador de ganados / perdidos / BE del dashboard y los desgloses aplican ya la banda, igual que la pantalla de Clasificacion. Lo que marques a mano sigue mandando sobre lo calculado.\r\n- La R media de ganadores y la de perdedores, y con ellas el payoff, usan la misma banda: un +0,10R deja de entrar en la media de ganadores.\r\n- Si un trade no tiene riesgo registrado no hay R con la que medir la banda, y se sigue contando por el signo del resultado en dolares.\r\n- La regla se aplica a todo el historial: las metricas de lo ya registrado cambian de valor sin tocar ningun dato.\r\n\r\nSe actualiza sola: no hace falta reinstalar.",
+  "version": "1.2.2",
+  "notes": "Cada operacion del dia ensena si es Win, Loss o BE.\n\n- La tabla de operaciones del dia lleva una columna nueva, Tipo, con un distintivo Win / Loss / BE junto al resultado.\n- Usa la misma banda de breakeven de +-0,25R que el dashboard y la pantalla de Clasificacion: un +2 $ con 130 $ de riesgo se ve como BE aunque el importe salga en verde.\n- Lo que marques a mano en Clasificacion manda sobre lo calculado, y una operacion todavia sin resultado no lleva distintivo.\n\nSe actualiza sola: no hace falta reinstalar.",
   "min_runtime": "1.0.1",
   "code": {
-    "url": "https://github.com/josepeyra/trading-journal-releases/releases/download/v1.2.1/trading-journal-1.2.1-code.zip",
-    "sha256": "f9e483020ead028ebb502a00ffa7a9d62ce80b17903784bd7f1f1ffd15b73190"
+    "url": "https://github.com/josepeyra/trading-journal-releases/releases/download/v1.2.2/trading-journal-1.2.2-code.zip",
+    "sha256": "80a650304b801ded5846f764a6ba2874688fd18260210174ffdc3796eb4c1610"
   },
   "installers": {
-    "windows": "https://github.com/josepeyra/trading-journal-releases/releases/tag/v1.2.1",
-    "macos": "https://github.com/josepeyra/trading-journal-releases/releases/tag/v1.2.1"
+    "windows": "https://github.com/josepeyra/trading-journal-releases/releases/tag/v1.2.2",
+    "macos": "https://github.com/josepeyra/trading-journal-releases/releases/tag/v1.2.2"
   }
 }
